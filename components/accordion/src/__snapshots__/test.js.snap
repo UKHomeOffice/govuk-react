@@ -1,0 +1,678 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs covers summary branch5 1`] = `
+<DocumentFragment>
+  .c7 {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+}
+
+.c7:after,
+.c7:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 25%;
+  height: 25%;
+  margin: auto;
+  border: 2px solid transparent;
+  background-color: #0b0c0c;
+}
+
+.c7:before {
+  width: 100%;
+}
+
+.c7:after {
+  height: 100%;
+}
+
+.c2 {
+  border-top: 1px solid #bfc1c3;
+  padding-top: 0;
+}
+
+.c3 {
+  position: relative;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.c3:hover {
+  background-color: #f8f8f8;
+}
+
+.c4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.c5 {
+  font-family: "nta",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.1111111111111112;
+  font-family: "nta",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 15px;
+  padding-bottom: 0;
+  padding-left: 0;
+  border-width: 0;
+  color: #005ea5;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.c5:focus {
+  outline: 3px solid #ffbf47;
+  outline-offset: 0;
+  background-color: #ffbf47;
+}
+
+.c5:focus {
+  outline: none;
+  background: none;
+}
+
+.c5:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.c6 {
+  font-family: "nta",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #0b0c0c;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.c1 {
+  font-family: "nta",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "nta",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.1428571428571428;
+  display: inline;
+  border-width: 0;
+  color: #005ea5;
+  background: none;
+  cursor: pointer;
+}
+
+.c1:link {
+  color: #005ea5;
+}
+
+.c1:visited {
+  color: #4c2c92;
+}
+
+.c1:hover {
+  color: #2b8cc4;
+}
+
+.c1:active {
+  color: #2b8cc4;
+}
+
+.c1:focus {
+  color: #0b0c0c;
+}
+
+.c1:focus {
+  outline: 3px solid #ffbf47;
+  outline-offset: 0;
+  background-color: #ffbf47;
+}
+
+.c1:focus {
+  background: none;
+}
+
+.c0 {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #bfc1c3;
+}
+
+@media (hover:none) {
+  .c3:hover {
+    background-color: initial;
+  }
+}
+
+@media print {
+  .c5 {
+    font-size: 18px;
+    line-height: 1.15;
+  }
+}
+
+@media only screen and (min-width:641px) {
+  .c5 {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+}
+
+@media print {
+  .c5 {
+    font-family: sans-serif;
+  }
+}
+
+@media print {
+  .c6 {
+    font-size: 14px;
+    line-height: 1.15;
+  }
+}
+
+@media only screen and (min-width:641px) {
+  .c6 {
+    font-size: 19px;
+    line-height: 1.3157894736842106;
+  }
+}
+
+@media print {
+  .c1 {
+    font-family: sans-serif;
+  }
+}
+
+@media print {
+  .c1[href^="/"]::after,
+  .c1[href^="http://"]::after,
+  .c1[href^="https://"]::after {
+    content: " (" attr(href) ")";
+    font-size: 90%;
+    word-wrap: break-word;
+  }
+}
+
+@media print {
+  .c1 {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (min-width:641px) {
+  .c1 {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media only screen and (min-width:641px) {
+  .c0 {
+    margin-bottom: 30px;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      style="text-align: right;"
+    >
+      <a
+        class="c1"
+        href="#"
+      >
+        Open all
+      </a>
+    </div>
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          <button
+            class="c5"
+            type="button"
+          >
+            Understanding agile project management
+          </button>
+        </h2>
+        <div
+          class="c6"
+        >
+          Introductions, methods, core features.
+        </div>
+        <div
+          class="c7"
+        />
+      </div>
+    </div>
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          <button
+            class="c5"
+            type="button"
+          >
+            Working with agile methods
+          </button>
+        </h2>
+        <div
+          class="c6"
+        >
+          Workspaces, tools and techniques, user stories, planning.
+        </div>
+        <div
+          class="c7"
+        />
+      </div>
+    </div>
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          <button
+            class="c5"
+            type="button"
+          >
+            Governing agile services
+          </button>
+        </h2>
+        <div
+          class="c6"
+        >
+          Principles, measuring progress, spending money.
+        </div>
+        <div
+          class="c7"
+        />
+      </div>
+    </div>
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          <button
+            class="c5"
+            type="button"
+          >
+            Phases of an agile project
+          </button>
+        </h2>
+        <div
+          class="c6"
+        >
+          Discovery, alpha, beta, live and retirement.
+        </div>
+        <div
+          class="c7"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabs matches wrapper snapshot 1`] = `
+<DocumentFragment>
+  .c6 {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+}
+
+.c6:after,
+.c6:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 25%;
+  height: 25%;
+  margin: auto;
+  border: 2px solid transparent;
+  background-color: #0b0c0c;
+}
+
+.c6:before {
+  width: 100%;
+}
+
+.c6:after {
+  height: 100%;
+}
+
+.c2 {
+  border-top: 1px solid #bfc1c3;
+  padding-top: 0;
+}
+
+.c3 {
+  position: relative;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.c3:hover {
+  background-color: #f8f8f8;
+}
+
+.c4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.c5 {
+  font-family: "nta",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.1111111111111112;
+  font-family: "nta",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 15px;
+  padding-bottom: 0;
+  padding-left: 0;
+  border-width: 0;
+  color: #005ea5;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.c5:focus {
+  outline: 3px solid #ffbf47;
+  outline-offset: 0;
+  background-color: #ffbf47;
+}
+
+.c5:focus {
+  outline: none;
+  background: none;
+}
+
+.c5:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.c1 {
+  font-family: "nta",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "nta",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.1428571428571428;
+  display: inline;
+  border-width: 0;
+  color: #005ea5;
+  background: none;
+  cursor: pointer;
+}
+
+.c1:link {
+  color: #005ea5;
+}
+
+.c1:visited {
+  color: #4c2c92;
+}
+
+.c1:hover {
+  color: #2b8cc4;
+}
+
+.c1:active {
+  color: #2b8cc4;
+}
+
+.c1:focus {
+  color: #0b0c0c;
+}
+
+.c1:focus {
+  outline: 3px solid #ffbf47;
+  outline-offset: 0;
+  background-color: #ffbf47;
+}
+
+.c1:focus {
+  background: none;
+}
+
+.c0 {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #bfc1c3;
+}
+
+@media (hover:none) {
+  .c3:hover {
+    background-color: initial;
+  }
+}
+
+@media print {
+  .c5 {
+    font-size: 18px;
+    line-height: 1.15;
+  }
+}
+
+@media only screen and (min-width:641px) {
+  .c5 {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+}
+
+@media print {
+  .c5 {
+    font-family: sans-serif;
+  }
+}
+
+@media print {
+  .c1 {
+    font-family: sans-serif;
+  }
+}
+
+@media print {
+  .c1[href^="/"]::after,
+  .c1[href^="http://"]::after,
+  .c1[href^="https://"]::after {
+    content: " (" attr(href) ")";
+    font-size: 90%;
+    word-wrap: break-word;
+  }
+}
+
+@media print {
+  .c1 {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (min-width:641px) {
+  .c1 {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media only screen and (min-width:641px) {
+  .c0 {
+    margin-bottom: 30px;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      style="text-align: right;"
+    >
+      <a
+        class="c1"
+        href="#"
+      >
+        Open all
+      </a>
+    </div>
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          <button
+            class="c5"
+            type="button"
+          >
+            Writing well for the web
+          </button>
+        </h2>
+        <div
+          class="c6"
+        />
+      </div>
+    </div>
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          <button
+            class="c5"
+            type="button"
+          >
+            Writing well for specialists
+          </button>
+        </h2>
+        <div
+          class="c6"
+        />
+      </div>
+    </div>
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          <button
+            class="c5"
+            type="button"
+          >
+            Know your audience
+          </button>
+        </h2>
+        <div
+          class="c6"
+        />
+      </div>
+    </div>
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          <button
+            class="c5"
+            type="button"
+          >
+            How people read
+          </button>
+        </h2>
+        <div
+          class="c6"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

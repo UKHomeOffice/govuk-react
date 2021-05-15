@@ -69,7 +69,7 @@ Prop | Required | Default | Type | Description
  `columnOneThird` |  | ```false``` | bool | Dimension setting for the column (deprecated)
  `columnThreeQuarters` |  | ```false``` | bool | Dimension setting for the column (deprecated)
  `columnTwoThirds` |  | ```false``` | bool | Dimension setting for the column (deprecated)
- `setDesktopWidth` |  | ```undefined``` | union(string \| number \| enum) | Explicitly set desktop column to width using value or descriptive string<br/>(`one-quarter`, `one-third`, `one-half`, `two-thirds`, `three-quarters`, `full`)
- `setWidth` |  | ```undefined``` | union(string \| number \| enum) | Explicitly set column to width using value or descriptive string<br/>(`one-quarter`, `one-third`, `one-half`, `two-thirds`, `three-quarters`, `full`)
+ `setDesktopWidth` |  | ```undefined``` | union(string \| number \| enum) | Explicitly set desktop column to width using value or descriptive string<br/>(`one-quarter`, `one-third`, `one-half`, `two-thirds`, `three-quarters`, `full`)
+ `setWidth` |  | ```undefined``` | union(string \| number \| enum) | Explicitly set column to width using value or descriptive string<br/>(`one-quarter`, `one-third`, `one-half`, `two-thirds`, `three-quarters`, `full`)
 
 

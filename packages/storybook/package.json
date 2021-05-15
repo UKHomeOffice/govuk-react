@@ -2,6 +2,7 @@
   "name": "@govuk-react/storybook",
   "version": "0.7.2",
   "dependencies": {
+    "@govuk-react/accordion": "^0.7.1",
     "@govuk-react/back-link": "^0.7.1",
     "@govuk-react/breadcrumb": "^0.7.1",
     "@govuk-react/breadcrumbs": "^0.7.1",

@@ -1,0 +1,30 @@
+{
+  "name": "@govuk-react/accordion",
+  "version": "0.7.1",
+  "dependencies": {
+    "@govuk-react/constants": "^0.6.0",
+    "@govuk-react/lib": "^0.6.0",
+    "@govuk-react/link": "^0.6.0",
+    "govuk-colours": "^1.0.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.2.0",
+    "styled-components": ">=4"
+  },
+  "scripts": {
+    "build": "yarn build:lib && yarn build:es",
+    "build:lib": "rimraf lib && babel src -d lib --source-maps --config-file ../../babel.config.js",
+    "build:es": "rimraf es && cross-env BABEL_ENV=es babel src -d es --source-maps --config-file ../../babel.config.js",
+    "docs": "doc-component './lib/index.js' './README.md'"
+  },
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "author": "David Murdoch",
+  "license": "MIT",
+  "homepage": "https://github.com/govuk-react/govuk-react/tree/master/components/accordion",
+  "description": "govuk-react Accordion component.",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}

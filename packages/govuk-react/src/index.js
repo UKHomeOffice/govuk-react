@@ -1,4 +1,5 @@
 // Components
+export { default as Accordion } from '@govuk-react/accordion';
 export { default as BackLink } from '@govuk-react/back-link';
 export { default as Breadcrumb } from '@govuk-react/breadcrumb';
 export { default as Breadcrumbs } from '@govuk-react/breadcrumbs';

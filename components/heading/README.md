@@ -54,8 +54,8 @@ Props pass through
 ### Properties
 Prop | Required | Default | Type | Description
 :--- | :------- | :------ | :--- | :----------
- `as` |  | ```undefined``` | string | Semantic heading tag to use (e.g. 'h3')<br/>By default element used will be an 'h1'
+ `as` |  | ```undefined``` | string | Semantic heading tag to use (e.g. 'h3')<br/>By default element used will be an 'h1'
  `level` |  | ```undefined``` | number | Semantic heading level value between 1 and 6 (deprecated)
- `size` |  | ```'XLARGE'``` | enum(...Object.keys(HEADING_SIZES) \| ...Object.keys(TYPOGRAPHY_SCALE)) | Visual size level, accepts:<br/>   `XLARGE`, `LARGE`, `MEDIUM`, `SMALL`, `XL`, `L`, `M`, `S`<br/>   or a numeric size that fits in the GDS font scale list
+ `size` |  | ```'XLARGE'``` | enum(...Object.keys(HEADING_SIZES) \| ...Object.keys(TYPOGRAPHY_SCALE)) | Visual size level, accepts:<br/>   `XLARGE`, `LARGE`, `MEDIUM`, `SMALL`, `XL`, `L`, `M`, `S`<br/>   or a numeric size that fits in the GDS font scale list
 
 
