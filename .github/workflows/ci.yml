@@ -23,7 +23,7 @@ jobs:
 
       - run: yarn
       - run: npm install -g codecov
-      - run: yarn build:sync
+      - run: yarn build
       - run: yarn docs
       - run: yarn test
       - run: codecov

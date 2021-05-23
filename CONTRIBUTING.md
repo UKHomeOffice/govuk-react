@@ -56,7 +56,7 @@ In order to prepare a release:
 - get approval for the PR (reviewers should be reviewing the release notes in the PR description) then merge the PR
 - once the PR is merged, open the [draft release corresponding to the new version number on GitHub](https://github.com/govuk-react/govuk-react/releases), change the target branch to master, check the title and description and then click `Publish release`.
 
-When the tag is created, the CI server will automatically release to npm using lerna exec, see:
+When the tag is created, the CI server will automatically release to npm, see:
 
 - https://github.com/lerna/lerna/issues/1056#issuecomment-374192818
 - https://github.com/lerna/lerna/issues/961

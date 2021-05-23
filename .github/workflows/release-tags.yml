@@ -20,7 +20,7 @@ jobs:
         registry-url: 'https://registry.npmjs.org'
 
     - run: yarn
-    - run: yarn build:sync
+    - run: yarn build
     
     - run: npm pack --workspaces && mkdir releases && mv {components,packages}/*/govuk-react-*.tgz ./releases
     - run: echo PACKAGE_VERSION=$(node -e 'console.log(require("./packages/govuk-react/package.json").version)') >> $GITHUB_ENV
@@ -32,6 +32,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - run: lerna exec --no-private --bail=false -- "$GITHUB_WORKSPACE/scripts/npmPublish.sh"
+    - run: npm exec --call "$GITHUB_WORKSPACE/scripts/npmPublish.sh"
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
