@@ -6,6 +6,9 @@
   "homepage": "https://github.com/govuk-react/govuk-react#readme",
   "description": "govuk-react: A port of the govuk-frontend components for React using styled-components.",
   "private": false,
+  "scripts": {
+    "build": "echo no build needed for images"
+  },
   "publishConfig": {
     "access": "public"
   }
