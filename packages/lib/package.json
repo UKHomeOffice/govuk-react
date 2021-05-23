@@ -6,7 +6,7 @@
     "govuk-colours": "^1.1.0"
   },
   "scripts": {
-    "build": "yarn build:lib && yarn build:es",
+    "build": "npm run build:lib && npm run build:es",
     "build:lib": "rimraf lib && babel src -d lib --source-maps --config-file ../../babel.config.js",
     "build:es": "rimraf es && cross-env BABEL_ENV=es babel src -d es --source-maps --config-file ../../babel.config.js"
   },
