@@ -2,7 +2,6 @@
   "name": "@govuk-react/monorepo",
   "scripts": {
     "start": "cd packages/storybook && npm start",
-    "bootstrap": "lerna bootstrap",
     "docs": "doc-component './components/**/lib/index.js' './API.md'",
     "docs:components": "npm run docs --workspaces",
     "eslint": "eslint \"./{components,packages}/*/src/**/*.js\"",
