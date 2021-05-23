@@ -5,8 +5,8 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - run: yarn
+      - run: npm i
       - uses: cypress-io/github-action@v2
         with:
           working-directory: packages/example-application
-          command: yarn cypress run-ct
+          command: npm exec cypress run-ct

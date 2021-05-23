@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: "${{ steps.nvm.outputs.NVMRC }}"
 
-      - run: yarn
-      - run: yarn build:storybook
+      - run: npm i
+      - run: npm run build:storybook
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.3

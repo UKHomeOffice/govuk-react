@@ -19,8 +19,8 @@ jobs:
         node-version: "${{ steps.nvm.outputs.NVMRC }}"
         registry-url: 'https://registry.npmjs.org'
 
-    - run: yarn
-    - run: yarn build
+    - run: npm i
+    - run: npm run build
     
     - run: npm pack --workspaces && mkdir releases && mv {components,packages}/*/govuk-react-*.tgz ./releases
     - run: echo PACKAGE_VERSION=$(node -e 'console.log(require("./packages/govuk-react/package.json").version)') >> $GITHUB_ENV
