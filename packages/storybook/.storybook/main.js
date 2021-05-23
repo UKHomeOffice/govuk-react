@@ -1,4 +1,4 @@
-const { webpack: lernaAliases } = require('lerna-alias');
+const { webpack: workspaceAliases } = require('workspace-alias');
 
 module.exports = {
   stories: [
@@ -9,7 +9,7 @@ module.exports = {
   ],
   addons: ['@storybook/addon-actions', '@storybook/addon-links', '@storybook/addon-knobs', '@storybook/addon-docs'],
   webpackFinal: async (config) => {
-    config.resolve.alias = lernaAliases();
+    config.resolve.alias = workspaceAliases();
     return config;
   },
 };

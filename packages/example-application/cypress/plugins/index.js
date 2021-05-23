@@ -11,7 +11,7 @@
 
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
-const { webpack: lernaAliases } = require('lerna-alias')
+const { webpack: workspaceAliases } = require('workspace-alias')
 
 /**
  * @type {Cypress.PluginConfig}
@@ -20,7 +20,7 @@ module.exports = (on, config) => {
   if (config.testingType === 'component') {
     require('@cypress/react/plugins/babel')(on, config, {
       setWebpackConfig: (webpackConfig) => {
-        webpackConfig.resolve.alias = lernaAliases();
+        webpackConfig.resolve.alias = workspaceAliases();
         webpackConfig.module.rules.find(({ loader }) => loader === 'babel-loader').options = {
           rootMode: 'upward',
         };

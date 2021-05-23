@@ -1,6 +1,6 @@
 // For a detailed explanation regarding each configuration property, visit:
 // https://jestjs.io/docs/en/configuration.html
-const { jest: lernaAliases } = require('lerna-alias');
+const { jest: workspaceAliases } = require('workspace-alias');
 
 module.exports = {
   clearMocks: true,
@@ -32,5 +32,5 @@ module.exports = {
     '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
   },
   transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$'],
-  moduleNameMapper: lernaAliases(),
+  moduleNameMapper: workspaceAliases(),
 };
