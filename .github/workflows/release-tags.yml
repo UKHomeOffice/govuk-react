@@ -22,7 +22,7 @@ jobs:
     - run: yarn
     - run: yarn build:sync
     
-    - run: yarn run pack && mkdir releases && mv {components,packages}/*/govuk-react-*.tgz ./releases
+    - run: npm pack --workspaces && mkdir releases && mv {components,packages}/*/govuk-react-*.tgz ./releases
     - run: echo PACKAGE_VERSION=$(node -e 'console.log(require("./packages/govuk-react/package.json").version)') >> $GITHUB_ENV
     
     - name: GitHub Release
