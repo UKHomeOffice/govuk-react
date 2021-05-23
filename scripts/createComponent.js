@@ -4,7 +4,7 @@
 const fs = require('fs');
 const path = require('path');
 const mkdirp = require('mkdirp-promise');
-const { version } = require('../lerna.json');
+const { version } = require('../packages/govuk-react/package.json');
 
 const componentFolderName = process.argv[2];
 const componentName = `${componentFolderName.charAt(0).toUpperCase()}${componentFolderName.slice(1).replace(/-([a-z])/g, g => g[1].toUpperCase())}`;
@@ -41,7 +41,7 @@ const packageJson = () => {
     "styled-components": ">=5.1"
   },
   "scripts": {
-    "build": "yarn build:lib && yarn build:es",
+    "build": "npm run build:lib && npm run build:es",
     "build:lib": "rimraf lib && babel src -d lib --source-maps --config-file ../../babel.config.js",
     "build:es": "rimraf es && cross-env BABEL_ENV=es babel src -d es --source-maps --config-file ../../babel.config.js",
     "docs": "doc-component ./lib/index.js ./README.md"

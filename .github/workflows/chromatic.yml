@@ -25,8 +25,8 @@ jobs:
         with:
           node-version: "${{ steps.nvm.outputs.NVMRC }}"
 
-      - run: yarn
-      - run: yarn build:storybook
+      - run: npm i
+      - run: npm run build:storybook
 
       - name: Publish to Chromatic
         uses: chromaui/action@v1
