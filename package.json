@@ -16,6 +16,7 @@
     "test:unit": "jest",
     "test:debug": "node --inspect-brk ./node_modules/.bin/jest --runInBand",
     "test:snapshot": "npm run test:unit -u",
+    "test:cypress": "cd packages/example-application && npm run test:cypress",
     "create-component": "node ./scripts/createComponent.js",
     "build:storybook": "cd packages/storybook && npm run build"
   },
