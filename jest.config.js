@@ -8,7 +8,7 @@ module.exports = {
   collectCoverageFrom: [
     '<rootDir>/{components,packages}/*/src/**.[jt]s?(x)',
     '<rootDir>/{components,packages}/*/src/**/*.[jt]s?(x)',
-    '!<rootDir>/{components,packages}/*/src/**/{stories,example,fixtures}.[jt]s?(x)',
+    '!<rootDir>/{components,packages}/*/src/**/{stories,example,fixtures,test}.[jt]s?(x)',
     '!<rootDir>/packages/storybook/**',
     '!<rootDir>/packages/api-docs/**',
     '!<rootDir>/packages/storybook-components/**',
@@ -30,7 +30,7 @@ module.exports = {
   testMatch: ['**/{components,packages}/*/src/**/?(*.)test.[jt]s?(x)'],
   transform: {
     '^.+\\.[jt]sx?$': 'babel-jest',
-    '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
+    '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2|mdx)$': 'jest-transform-stub',
   },
   transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$'],
   moduleNameMapper: workspaceAliases(),

@@ -3,13 +3,6 @@ import { cleanup, fireEvent, render } from '@testing-library/react';
 
 import { SimpleTabs } from './fixtures';
 
-beforeAll(() => {
-  Object.defineProperty(window, 'matchMedia', {
-    // jsdom appears not to cope with CSSinJS media queries
-    value: jest.fn(() => ({ matches: false })),
-  });
-});
-
 afterEach(cleanup);
 
 describe('Tabs', () => {

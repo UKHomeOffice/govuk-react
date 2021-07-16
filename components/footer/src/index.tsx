@@ -118,7 +118,7 @@ const FooterContainer = styled('footer')(
  * - https://github.com/alphagov/govuk-frontend/blob/main/src/govuk/components/footer/_footer.scss
  *
  */
-const Footer = ({ children, container: Container, copyright, meta, ...props }) => (
+const Footer = ({ children, container: Container = WidthContainer, copyright, meta, ...props }) => (
   <FooterContainer role="contentinfo" {...props}>
     <Container>
       {children && (
@@ -166,12 +166,5 @@ Footer.MetaCustom = MetaCustom;
 Footer.MetaLinks = MetaLinks;
 Footer.NavigationLinks = NavigationLinks;
 Footer.WidthContainer = WidthContainer;
-
-Footer.defaultProps = {
-  children: undefined,
-  container: Footer.WidthContainer,
-  copyright: undefined,
-  meta: undefined,
-};
 
 export default Footer;

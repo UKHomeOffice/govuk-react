@@ -16,7 +16,7 @@ class AutoFocussed extends Component {
   }
 
   componentDidMount() {
-    this.focusableRef.current.focus();
+    this.focusableRef.current?.focus();
   }
 
   render() {

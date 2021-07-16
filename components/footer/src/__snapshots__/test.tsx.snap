@@ -182,41 +182,7 @@ exports[`Footer matches default snapshot: Footer 1`] = `
 }
 
 <FooterExample>
-  <Footer
-    container={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": e {
-          "baseHash": -2084790490,
-          "baseStyle": undefined,
-          "componentId": "width-container__WidthContainer-sc-213f5v-0",
-          "isStatic": false,
-          "rules": Array [
-            "max-width: 960px;",
-            "margin: 0 15px;",
-            "@media only screen and (min-width: 641px) {",
-            "margin: 0 30px;",
-            "}",
-            "@media only screen and (min-width: 1020px) {",
-            "margin: 0 auto;",
-            "}",
-            [Function],
-          ],
-          "staticRulesId": "",
-        },
-        "displayName": "width-container__WidthContainer",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "shouldForwardProp": undefined,
-        "styledComponentId": "width-container__WidthContainer-sc-213f5v-0",
-        "target": "div",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      }
-    }
-  >
+  <Footer>
     <src__FooterContainer
       role="contentinfo"
     >
@@ -535,39 +501,6 @@ exports[`Footer matches with copyright snapshot: FooterWithCopyright 1`] = `
 
 <FooterWithCopyright>
   <Footer
-    container={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": e {
-          "baseHash": -2084790490,
-          "baseStyle": undefined,
-          "componentId": "width-container__WidthContainer-sc-213f5v-0",
-          "isStatic": false,
-          "rules": Array [
-            "max-width: 960px;",
-            "margin: 0 15px;",
-            "@media only screen and (min-width: 641px) {",
-            "margin: 0 30px;",
-            "}",
-            "@media only screen and (min-width: 1020px) {",
-            "margin: 0 auto;",
-            "}",
-            [Function],
-          ],
-          "staticRulesId": "",
-        },
-        "displayName": "width-container__WidthContainer",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "shouldForwardProp": undefined,
-        "styledComponentId": "width-container__WidthContainer-sc-213f5v-0",
-        "target": "div",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      }
-    }
     copyright={
       Object {
         "image": Object {
@@ -1280,39 +1213,6 @@ exports[`Footer matches with meta custom snapshot: FooterWithMetaCustom 1`] = `
 
 <FooterWithMetaCustom>
   <Footer
-    container={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": e {
-          "baseHash": -2084790490,
-          "baseStyle": undefined,
-          "componentId": "width-container__WidthContainer-sc-213f5v-0",
-          "isStatic": false,
-          "rules": Array [
-            "max-width: 960px;",
-            "margin: 0 15px;",
-            "@media only screen and (min-width: 641px) {",
-            "margin: 0 30px;",
-            "}",
-            "@media only screen and (min-width: 1020px) {",
-            "margin: 0 auto;",
-            "}",
-            [Function],
-          ],
-          "staticRulesId": "",
-        },
-        "displayName": "width-container__WidthContainer",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "shouldForwardProp": undefined,
-        "styledComponentId": "width-container__WidthContainer-sc-213f5v-0",
-        "target": "div",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      }
-    }
     meta={
       <meta-custom__MetaCustom>
         Built by the 
@@ -1747,39 +1647,6 @@ exports[`Footer matches with meta links and custom snapshot: FooterWithMetaLinks
       }
     >
       <Footer
-        container={
-          Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": e {
-              "baseHash": -2084790490,
-              "baseStyle": undefined,
-              "componentId": "width-container__WidthContainer-sc-213f5v-0",
-              "isStatic": false,
-              "rules": Array [
-                "max-width: 960px;",
-                "margin: 0 15px;",
-                "@media only screen and (min-width: 641px) {",
-                "margin: 0 30px;",
-                "}",
-                "@media only screen and (min-width: 1020px) {",
-                "margin: 0 auto;",
-                "}",
-                [Function],
-              ],
-              "staticRulesId": "",
-            },
-            "displayName": "width-container__WidthContainer",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "shouldForwardProp": undefined,
-            "styledComponentId": "width-container__WidthContainer-sc-213f5v-0",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          }
-        }
         meta={
           <React.Fragment>
             <MetaLinks
@@ -2435,39 +2302,6 @@ exports[`Footer matches with meta links snapshot: FooterWithMetaLinks 1`] = `
       }
     >
       <Footer
-        container={
-          Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": e {
-              "baseHash": -2084790490,
-              "baseStyle": undefined,
-              "componentId": "width-container__WidthContainer-sc-213f5v-0",
-              "isStatic": false,
-              "rules": Array [
-                "max-width: 960px;",
-                "margin: 0 15px;",
-                "@media only screen and (min-width: 641px) {",
-                "margin: 0 30px;",
-                "}",
-                "@media only screen and (min-width: 1020px) {",
-                "margin: 0 auto;",
-                "}",
-                [Function],
-              ],
-              "staticRulesId": "",
-            },
-            "displayName": "width-container__WidthContainer",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "shouldForwardProp": undefined,
-            "styledComponentId": "width-container__WidthContainer-sc-213f5v-0",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          }
-        }
         meta={
           <MetaLinks
             heading="Support links"
@@ -3233,39 +3067,6 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
       }
     >
       <Footer
-        container={
-          Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": e {
-              "baseHash": -2084790490,
-              "baseStyle": undefined,
-              "componentId": "width-container__WidthContainer-sc-213f5v-0",
-              "isStatic": false,
-              "rules": Array [
-                "max-width: 960px;",
-                "margin: 0 15px;",
-                "@media only screen and (min-width: 641px) {",
-                "margin: 0 30px;",
-                "}",
-                "@media only screen and (min-width: 1020px) {",
-                "margin: 0 auto;",
-                "}",
-                [Function],
-              ],
-              "staticRulesId": "",
-            },
-            "displayName": "width-container__WidthContainer",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "shouldForwardProp": undefined,
-            "styledComponentId": "width-container__WidthContainer-sc-213f5v-0",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          }
-        }
         meta={
           <React.Fragment>
             <MetaLinks
@@ -4483,41 +4284,7 @@ exports[`Footer matches with navigation snapshot: FooterWithNavigation 1`] = `
         }
       }
     >
-      <Footer
-        container={
-          Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": e {
-              "baseHash": -2084790490,
-              "baseStyle": undefined,
-              "componentId": "width-container__WidthContainer-sc-213f5v-0",
-              "isStatic": false,
-              "rules": Array [
-                "max-width: 960px;",
-                "margin: 0 15px;",
-                "@media only screen and (min-width: 641px) {",
-                "margin: 0 30px;",
-                "}",
-                "@media only screen and (min-width: 1020px) {",
-                "margin: 0 auto;",
-                "}",
-                [Function],
-              ],
-              "staticRulesId": "",
-            },
-            "displayName": "width-container__WidthContainer",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "shouldForwardProp": undefined,
-            "styledComponentId": "width-container__WidthContainer-sc-213f5v-0",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          }
-        }
-      >
+      <Footer>
         <src__FooterContainer
           role="contentinfo"
         >
@@ -5390,39 +5157,6 @@ exports[`Footer matches with single meta link snapshot: FooterWithSingleMetaLink
       }
     >
       <Footer
-        container={
-          Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": e {
-              "baseHash": -2084790490,
-              "baseStyle": undefined,
-              "componentId": "width-container__WidthContainer-sc-213f5v-0",
-              "isStatic": false,
-              "rules": Array [
-                "max-width: 960px;",
-                "margin: 0 15px;",
-                "@media only screen and (min-width: 641px) {",
-                "margin: 0 30px;",
-                "}",
-                "@media only screen and (min-width: 1020px) {",
-                "margin: 0 auto;",
-                "}",
-                [Function],
-              ],
-              "staticRulesId": "",
-            },
-            "displayName": "width-container__WidthContainer",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "shouldForwardProp": undefined,
-            "styledComponentId": "width-container__WidthContainer-sc-213f5v-0",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          }
-        }
         meta={
           <MetaLinks
             heading="Support links"
@@ -5948,41 +5682,7 @@ exports[`Footer matches with single navigation link snapshot: FooterWithSingleNa
 }
 
 <FooterWithSingleNavigationLink>
-  <Footer
-    container={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": e {
-          "baseHash": -2084790490,
-          "baseStyle": undefined,
-          "componentId": "width-container__WidthContainer-sc-213f5v-0",
-          "isStatic": false,
-          "rules": Array [
-            "max-width: 960px;",
-            "margin: 0 15px;",
-            "@media only screen and (min-width: 641px) {",
-            "margin: 0 30px;",
-            "}",
-            "@media only screen and (min-width: 1020px) {",
-            "margin: 0 auto;",
-            "}",
-            [Function],
-          ],
-          "staticRulesId": "",
-        },
-        "displayName": "width-container__WidthContainer",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "shouldForwardProp": undefined,
-        "styledComponentId": "width-container__WidthContainer-sc-213f5v-0",
-        "target": "div",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      }
-    }
-  >
+  <Footer>
     <src__FooterContainer
       role="contentinfo"
     >
